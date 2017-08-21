@@ -16,6 +16,7 @@ mod.config(function () {
 });
 
 mod.config(function ($stateProvider, $urlRouterProvider) {
+    console.log('app.js')
     $stateProvider.state('root', {
         url: '/',
         templateUrl: 'partials/root.html',

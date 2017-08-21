@@ -10,7 +10,7 @@ function SwiftClient($http, $q, $upload) {
 
 SwiftClient.prototype.defaultSwiftUrl = function () {
     var path = window.location.pathname;
-    return path.split('/').slice(0, 3).join('/');
+    return path.split('/').slice(0, 4).join('/');
 };
 
 SwiftClient.prototype.auth = function (type, credentials) {
